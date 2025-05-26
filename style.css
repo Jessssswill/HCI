@@ -1,0 +1,450 @@
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+
+.component-1-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #d9d9d9;
+}
+.selengkapnya-tentang-mobil {
+  	position: absolute;
+  	top: 0px;
+  	left: 3px;
+  	font-size: 25px;
+}
+.card-1-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 15px;
+  	background-color: #fff;
+  	width: 325px;
+  	height: 275px;
+}
+.calya-1-icon {
+  	position: absolute;
+  	top: 19px;
+  	left: 52px;
+  	width: 221.4px;
+  	height: 127px;
+  	object-fit: cover;
+}
+.rp-112000000 {
+  	position: absolute;
+  	top: 166px;
+  	left: 15px;
+  	font-size: 25px;
+}
+.div {
+  	position: absolute;
+  	top: 196px;
+  	left: 15px;
+}
+.toyota-calya-2020 {
+  	position: absolute;
+  	top: 220px;
+  	left: 15px;
+  	color: #5c5c5c;
+}
+.pesanggrahan-jakarta-selatan {
+  	position: absolute;
+  	top: 244px;
+  	left: 15px;
+  	font-size: 15px;
+}
+.card-1 {
+  	position: absolute;
+  	top: 39px;
+  	left: 0px;
+  	width: 325px;
+  	height: 275px;
+}
+.card-2 {
+  	position: absolute;
+  	top: 39px;
+  	left: 381px;
+  	width: 325px;
+  	height: 275px;
+}
+.card-3 {
+  	position: absolute;
+  	top: 47px;
+  	left: 738px;
+  	width: 325px;
+  	height: 275px;
+}
+.card-4 {
+  	position: absolute;
+  	top: 39px;
+  	left: 1095px;
+  	width: 325px;
+  	height: 275px;
+}
+.card-41 {
+  	position: absolute;
+  	top: 41px;
+  	left: 1453px;
+  	width: 325px;
+  	height: 275px;
+}
+.card {
+  	position: absolute;
+  	height: 92%;
+  	width: 96.01%;
+  	top: 4%;
+  	right: 0.96%;
+  	bottom: 4%;
+  	left: 3.03%;
+  	overflow-x: auto;
+}
+.component-1 {
+  	position: absolute;
+  	top: 607px;
+  	left: 43px;
+  	width: 1353px;
+  	height: 350px;
+}
+
+.animation {
+    position: absolute;
+    top: 149px;
+    left: 0px;
+    width: 1440px;
+    height: 208px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.animation-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    transition: all 0.5s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.animation:hover .animation-child {
+    transform: scale(1.02);
+}
+
+@media (max-width: 1440px) {
+    .animation {
+        width: 100%;
+        max-width: 1440px;
+    }
+}
+
+.animation-child::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    transform: translateX(-100%);
+    animation: loading 2s infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.barang-gratis {
+  	position: relative;
+}
+.barang-gratis-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.mobil-bekas-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 196px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.motor-bekas-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 380px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.lowongan-kerja-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 940px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.aksesoris-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 1180px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.properti-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 588px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.handphone-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 747px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.frame-parent {
+  	position: absolute;
+  	top: 3px;
+  	left: 74px;
+  	width: 1292px;
+  	height: 44px;
+}
+.nav-inner {
+  	position: absolute;
+  	top: 96px;
+  	left: 0px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: #fff;
+  	width: 1440px;
+  	height: 50px;
+  	overflow: hidden;
+}
+.headerbg {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #d9d9d9;
+  	border: 1px solid #2e2b2b;
+  	box-sizing: border-box;
+  	width: 1440px;
+  	height: 96px;
+}
+.olx-indonesia-logosvg-1-icon {
+  	position: absolute;
+  	top: 10px;
+  	left: 39px;
+  	width: 76px;
+  	height: 76px;
+  	object-fit: cover;
+}
+.select-location-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 81.68%;
+  	top: 0%;
+  	right: 18.32%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.location {
+  	position: absolute;
+  	height: 62.75%;
+  	width: 93.72%;
+  	top: 29.41%;
+  	left: 6.28%;
+  	display: inline-block;
+}
+.image-2-icon {
+  	position: absolute;
+  	width: 19.9%;
+  	top: 9px;
+  	right: 21.47%;
+  	left: 58.64%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 38px;
+  	object-fit: cover;
+}
+.select-location {
+  	position: absolute;
+  	top: 22px;
+  	left: 137px;
+  	width: 191px;
+  	height: 51px;
+}
+.searchbar-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+  	cursor: pointer;
+}
+.temukan-barang-yang {
+  	position: absolute;
+  	top: 11px;
+  	left: 43px;
+  	opacity: 0.49;
+}
+.image-2-icon1 {
+  	position: absolute;
+  	width: 5.24%;
+  	top: 9px;
+  	right: 1.79%;
+  	left: 92.97%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 38px;
+  	object-fit: cover;
+}
+.searchbar {
+  	position: absolute;
+  	height: 53.13%;
+  	width: 50.35%;
+  	top: 22.92%;
+  	right: 25.35%;
+  	bottom: 23.96%;
+  	left: 24.31%;
+  	font-size: 25px;
+  	color: #000;
+}
+
+.chat-icon {
+  	position: absolute;
+  	top: 22px;
+  	left: 1111px;
+  	width: 48px;
+  	height: 48px;
+  	object-fit: cover;
+}
+.bell-icon {
+  	position: absolute;
+  	top: 4px;
+  	left: 1166px;
+  	width: 88px;
+  	height: 88px;
+  	object-fit: cover;
+}
+
+.profile-child {
+  	position: absolute;
+  	width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile {
+  	position: absolute;
+  	top: 18px;
+  	left: 1250px;
+  	width: 57px;
+  	height: 57px;
+  	cursor: pointer;
+}
+.header {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 96px;
+  	text-align: left;
+  	color: #0069e9;
+}
+.nav {
+  	position: fixed;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 146px;
+  	text-align: center;
+}
+.home {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 1024px;
+  	overflow-y: auto;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #000;
+  	font-family: Inter;
+}
+.profile-dropdown {
+  	position: absolute;
+  	top: 80px;
+  	right: 40px;
+  	width: 300px;
+  	background-color: #e0e0e0;
+  	border-radius: 15px;
+  	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  	display: none;
+  	z-index: 1000;
+  	padding: 15px;
+  	text-align: center;
+}
+
+
+.login-register {
+  	padding: 10px;
+  	font-size: 20px;
+  	color: #0069e9;
+  	text-decoration: underline;
+  	font-weight: bold;
+  	cursor: pointer;
+}
+.profile-icon:hover {
+  	background-color: #a0a0a0;
+  	cursor: pointer;
+}
+.login-register:hover {
+  	opacity: 0.8;
+}
